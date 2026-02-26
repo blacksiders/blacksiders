@@ -25,7 +25,7 @@ Passionate about the intersection of creative tooling, artificial intelligence, 
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=blacksiders&theme=radical&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" width="48%" />
 </div>
 
-<img src="images/waves.svg" width="100%" height="100">
+<img src="images/waves.svg?v=1" width="100%" height="100">
 
 <h1 align="center">Featured Projects & Tools</h1>
 <div align="center">My selected repositories and packages</div>
