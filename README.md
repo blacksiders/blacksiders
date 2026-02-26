@@ -5,9 +5,6 @@
   <br/>
   <div >
     <a href="https://github.com/blacksiders"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-    <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_PROFILE"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-    <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="YouTube"/></a>
-    <a href="https://twitter.com/YOUR_TWITTER"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/></a>
   </div>
 </div>
 
@@ -35,23 +32,18 @@ Passionate about the intersection of creative tooling, artificial intelligence, 
 
 <br/>
 
-<!-- 
-NOTE: Replace `YOUR_REPO_NAME` with the names of your actual GitHub repositories.
-This uses the github-readme-stats pin feature to match the beautiful card style!
--->
-
 <div align="center">
-    <a href="https://github.com/blacksiders/YOUR_REPO_NAME_1">
-      <img width="45%" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=blacksiders&repo=YOUR_REPO_NAME_1&theme=radical&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
+    <a href="https://github.com/blacksiders/Unity-MCP">
+      <img width="45%" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=blacksiders&repo=Unity-MCP&theme=radical&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
     </a>
-    <a href="https://github.com/blacksiders/YOUR_REPO_NAME_2">
-      <img width="45%" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=blacksiders&repo=YOUR_REPO_NAME_2&theme=radical&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
+    <a href="https://github.com/blacksiders/babysitter">
+      <img width="45%" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=blacksiders&repo=babysitter&theme=radical&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
     </a>
-    <a href="https://github.com/blacksiders/YOUR_REPO_NAME_3">
-      <img width="45%" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=blacksiders&repo=YOUR_REPO_NAME_3&theme=radical&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
+    <a href="https://github.com/blacksiders/resolve-mcp">
+      <img width="45%" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=blacksiders&repo=resolve-mcp&theme=radical&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
     </a>
-    <a href="https://github.com/blacksiders/YOUR_REPO_NAME_4">
-      <img width="45%" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=blacksiders&repo=YOUR_REPO_NAME_4&theme=radical&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
+    <a href="https://github.com/blacksiders/mikan">
+      <img width="45%" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=blacksiders&repo=mikan&theme=radical&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
     </a>
 </div>
 
@@ -69,13 +61,4 @@ This uses the github-readme-stats pin feature to match the beautiful card style!
 
 <br/>
 
-<h2 align="center"> </h1>
 
-<br/>
-
-<div align="center">
-  <!-- Replace the repos in the URL below to populate your own Star History chart -->
-  <a href="https://star-history.com/#blacksiders/YOUR_REPO_NAME_1&blacksiders/YOUR_REPO_NAME_2&Date">
-    <img alt="Star History Chart" width="100%" src="https://api.star-history.com/svg?repos=blacksiders/YOUR_REPO_NAME_1,blacksiders/YOUR_REPO_NAME_2&type=Date" />
-  </a>
-</div>
