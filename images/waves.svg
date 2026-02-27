@@ -2,92 +2,75 @@
   class="waves"
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink"
-  viewBox="0 24 150 28"
+  viewBox="0 0 150 100"
   preserveAspectRatio="none"
   shape-rendering="auto"
 >
   <defs>
-    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+    <!-- Path without the v44h-352z so it doesn't have a flat bottom, just a wavy horizontal line -->
+    <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18" />
     
-    <!-- Smooth blended cosmic gradient that spans the entire graphic -->
     <linearGradient id="cosmic-flow" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#4A00E0" />      <!-- Deep Purple -->
-      <stop offset="30%" stop-color="#8E2DE2" />     <!-- Violet -->
-      <stop offset="50%" stop-color="#FC466B" />     <!-- Neon Pink -->
-      <stop offset="80%" stop-color="#3F5EFB" />     <!-- Blue -->
-      <stop offset="100%" stop-color="#00C9FF" />    <!-- Cyan -->
+      <stop offset="0%" stop-color="#4A00E0" />
+      <stop offset="30%" stop-color="#8E2DE2" />
+      <stop offset="50%" stop-color="#FC466B" />
+      <stop offset="80%" stop-color="#3F5EFB" />
+      <stop offset="100%" stop-color="#00C9FF" />
     </linearGradient>
 
-    <!-- Overlay gradients to give depth to each individual layer without breaking harmony -->
-    <linearGradient id="glow1" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.0" />
-    </linearGradient>
-    <linearGradient id="glow2" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.0" />
-    </linearGradient>
-    <linearGradient id="glow3" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.1" />
+    <!-- Overlay gradients for glowing stroke effect -->
+    <linearGradient id="glow-bright" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.8" />
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0.0" />
     </linearGradient>
   </defs>
 
-  <!-- Deep space background layer so it's not transparent/white underneath -->
-  <rect x="0" y="0" width="150" height="100" fill="#0D1117" />
-
-  <!-- Smoothly flowing nested gradient waves -->
+  <!-- Flowing floating ribbons with no cropped borders -->
   <g class="parallax">
-    <use xlink:href="#gentle-wave" x="48" y="0" fill="url(#cosmic-flow)" opacity="0.4" />
-    <use xlink:href="#gentle-wave" x="48" y="0" fill="url(#glow1)" />
+    <use xlink:href="#gentle-wave" x="48" y="5" fill="none" stroke="url(#cosmic-flow)" stroke-width="3" stroke-linecap="round" opacity="0.4" />
+    
+    <use xlink:href="#gentle-wave" x="48" y="15" fill="none" stroke="url(#cosmic-flow)" stroke-width="6" stroke-linecap="round" opacity="0.6" />
+    
+    <use xlink:href="#gentle-wave" x="48" y="25" fill="none" stroke="url(#cosmic-flow)" stroke-width="12" stroke-linecap="round" opacity="0.8" />
+    <use xlink:href="#gentle-wave" x="48" y="25" fill="none" stroke="url(#glow-bright)" stroke-width="2" stroke-linecap="round" opacity="0.5" />
 
-    <use xlink:href="#gentle-wave" x="48" y="3" fill="url(#cosmic-flow)" opacity="0.6" />
-    <use xlink:href="#gentle-wave" x="48" y="3" fill="url(#glow2)" />
-
-    <use xlink:href="#gentle-wave" x="48" y="5" fill="url(#cosmic-flow)" opacity="0.8" />
-    <use xlink:href="#gentle-wave" x="48" y="5" fill="url(#glow3)" />
-
-    <!-- Foreground solid wave -->
-    <use xlink:href="#gentle-wave" x="48" y="7" fill="url(#cosmic-flow)" opacity="1.0" />
+    <use xlink:href="#gentle-wave" x="48" y="35" fill="none" stroke="url(#cosmic-flow)" stroke-width="18" stroke-linecap="round" opacity="1.0" />
+    <use xlink:href="#gentle-wave" x="48" y="35" fill="none" stroke="url(#glow-bright)" stroke-width="4" stroke-linecap="round" opacity="0.7" />
   </g>
 
   <style>
     .waves {
       width: 100%;
+      height: 15vh;
+      min-height: 100px;
+      max-height: 200px;
+      display: block;
     }
     
     .parallax > use {
       animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;      
     }
     
-    /* Layer 1 (Back) */
-    .parallax > use:nth-child(1), .parallax > use:nth-child(2) {
+    .parallax > use:nth-child(1) {
       animation-delay: -2s;
       animation-duration: 12s;
     }
-    /* Layer 2 */
-    .parallax > use:nth-child(3), .parallax > use:nth-child(4) {
+    .parallax > use:nth-child(2) {
       animation-delay: -3s;
       animation-duration: 15s;
     }
-    /* Layer 3 */
-    .parallax > use:nth-child(5), .parallax > use:nth-child(6) {
+    .parallax > use:nth-child(3), .parallax > use:nth-child(4) {
       animation-delay: -4s;
       animation-duration: 18s;
     }
-    /* Layer 4 (Front) */
-    .parallax > use:nth-child(7) {
+    .parallax > use:nth-child(5), .parallax > use:nth-child(6) {
       animation-delay: -5s;
       animation-duration: 22s;
     }
     
     @keyframes move-forever {
-      0% {
-        transform: translate3d(-90px, 0, 0);
-      }
-      100% {
-        transform: translate3d(85px, 0, 0);
-      }
+      0% { transform: translate3d(-90px, 0, 0); }
+      100% { transform: translate3d(85px, 0, 0); }
     }
   </style>
 </svg>
