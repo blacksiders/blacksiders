@@ -21,7 +21,7 @@ Passionate about the intersection of creative tooling, artificial intelligence, 
 
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=blacksiders&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=blacksiders&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&count_private=true&include_all_commits=true" width="48%" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=blacksiders&theme=radical&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" width="48%" />
 </div>
 
@@ -33,17 +33,17 @@ Passionate about the intersection of creative tooling, artificial intelligence, 
 <br/>
 
 <div align="center">
-    <a href="https://github.com/blacksiders/Unity-MCP">
-      <img width="45%" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=blacksiders&repo=Unity-MCP&theme=radical&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
+    <a href="https://github.com/blacksiders/SkillPointer">
+      <img width="45%" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=blacksiders&repo=SkillPointer&theme=radical&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
     </a>
-    <a href="https://github.com/blacksiders/babysitter">
-      <img width="45%" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=blacksiders&repo=babysitter&theme=radical&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
+    <a href="https://github.com/blacksiders/reference_player">
+      <img width="45%" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=blacksiders&repo=reference_player&theme=radical&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
     </a>
-    <a href="https://github.com/blacksiders/resolve-mcp">
-      <img width="45%" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=blacksiders&repo=resolve-mcp&theme=radical&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
+    <a href="https://github.com/blacksiders/dsRenamingTool">
+      <img width="45%" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=blacksiders&repo=dsRenamingTool&theme=radical&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
     </a>
-    <a href="https://github.com/blacksiders/mikan">
-      <img width="45%" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=blacksiders&repo=mikan&theme=radical&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
+    <a href="https://github.com/blacksiders/dc_playblast">
+      <img width="45%" align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=blacksiders&repo=dc_playblast&theme=radical&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
     </a>
 </div>
 
@@ -60,5 +60,3 @@ Passionate about the intersection of creative tooling, artificial intelligence, 
 </div>
 
 <br/>
-
-
