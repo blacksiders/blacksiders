@@ -49,7 +49,7 @@ Passionate about the intersection of creative tooling, artificial intelligence, 
 
 <br/>
 
-<h2 align="center">Tech Stack</h1>
+<h2 align="center">Stack & Skills</h1>
 
 <br/>
 
